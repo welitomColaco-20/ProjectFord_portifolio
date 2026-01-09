@@ -1,0 +1,398 @@
+body{
+  margin:0;
+}
+
+.logo{
+  width:70px;
+  margin:10px
+}
+
+.menu1, .menu2, .menu3{
+  width:25px;
+  height:2px;
+  background-color:#05163d;
+  margin:5px;
+}
+.optionmn{
+  position: absolute;
+  top:0;
+  right:0;
+  background-color:rgba(0,0,0,0.9);
+  color:#fff;
+  width:80vw;
+  height:100vh;
+  margin-top:-1px;
+  padding-left: 0px;
+  display:none;
+}
+.optionmn.active{
+  display:block;
+  
+}
+.optionmn li{
+ list-style:none;
+ text-align:center;
+  font-size:22px;
+  font-weight: bolder;
+  padding:25px 0px;
+  
+}
+a{
+  text-decoration:none;
+  color:#fff;
+  
+}
+.optionmn li:hover{
+  background-color:#222;
+  font-size:28px;
+  border-top:2px solid #fff;
+  border-bottom:2px solid #fff;
+  border-left:2px solid #fff;
+}
+.cabeçalho{
+ display:flex;
+}
+
+.menu1, .menu2, .menu3{
+  flex-direction:column;
+}
+
+.options{
+  margin-left:310px;
+  margin-top:15px;
+}
+
+.segmenu{
+  background-color:#1f3442;
+  padding:15px;
+  color:#fff
+  
+}
+
+.segmenu{
+  display:flex
+  
+}
+.lihn{
+  margin-top:-20px;
+  margin-left:-40px;
+  padding-left:0px;
+  display:none
+}
+.lihn li{
+ list-style:none;
+padding-bottom:20px;
+  background-color: #1f3442;
+  color:#aaa;
+ padding-left:20px
+}
+.lihn.active{
+  display:block;
+}
+
+.botmenu{
+  flex-direction: row-reverse;
+  margin-left:270px;
+}
+
+.botopt{
+ width:18px; 
+  
+}
+
+.t, .ds{
+  text-align:center;
+  color: midnightblue;
+  
+}
+.t{
+ margin-bottom:5px;
+  font-size:35px
+}
+.ds{
+  margin-top:0px;
+}
+
+.pros{
+  background-color: midnightblue;
+  padding:10px;
+  color:#fff;
+  width:130px;
+  border-radius:15px;
+  margin-left:170px
+}
+.modelo{
+width:100%;  
+  margin-top:20px;
+}
+.titulodes{
+  font-size:15px;
+  color:#ccc
+  
+}
+
+.preço{
+  font-size:25px;
+  color: midnightblue;
+   background-color:#eaecf1
+}
+.barra{
+  height:160px;
+  width:2px;
+  background-color:#ccc;
+  margin-top:15px;
+}
+.pinfo{
+  display:flex;
+  
+}
+
+.box1{
+ width:130px;
+  padding:10px;
+  
+  
+}
+.box2{
+ width:150px; 
+  padding:10px;
+  
+}
+
+.box3{
+  width:160px;
+  padding:10px
+  
+}
+
+.fotos{
+font-size:35px;
+color: midnightblue;
+  text-align:center;
+  
+}
+
+.lay{
+  width:483px;
+  align-items:center;
+}
+
+.caracteristica{
+  background-color:#eaecf1;
+  width:300px;
+  height:610px;
+  margin-top:35px;
+  margin-left:100px;
+  margin-bottom:75px;
+}
+
+.caract{
+  width:100%
+  
+}
+.carinf{
+  width:100%;
+  padding:3px;
+   line-height:25px
+}
+p{
+  padding:10px;
+   
+}
+.viw{
+  background-color: blue;
+  color:#fff;
+  width:230px;
+  height:40px;
+  border-radius:15px;
+  font-size:30px;
+  align-content:center;
+  align-items: center;
+  padding-left:75px;
+  
+  
+}
+
+.barral ,.barralu{
+ width:100%;
+ height:2px;
+background-color:#aaa;
+  margin-top:0
+  
+  
+}
+.tm{
+ color: midnightblue;
+  font-size:25px;
+  margin:30px;
+}
+.uop{
+ background-color:#eaecf1;
+  
+}
+.st1 ,.st2 ,.st3 ,.st4 ,.st5 ,.st6{
+  width:30px;
+  padding-top:24px;
+  flex-direction: row-reverse;
+  
+}
+.bx{
+display: flex;
+}
+.st1{
+  margin-left:230px;
+  
+}
+
+.st2{
+  margin-left:234px;
+}
+
+.st3{
+  margin-left:207px;
+}
+
+.st4{
+  margin-left:200px;
+}
+
+.st5{
+  margin-left:193px;
+}
+
+.st6{
+  margin-left:209px;
+}
+
+.textTm{
+  color:#666;
+  padding:10px;
+  display:none
+}
+.textTm.active{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sugest{
+  background-color:midnightblue;
+  
+  color:#fff;
+  font-size:30px;
+  padding:15px;
+  text-align:center;
+}
+
+.msg{
+  width:25px;
+}
+
+.scf{
+  background-color:#00142e
+}
+
+.op2, .op1, .op3, .op4{
+  width:20px;
+  padding:16px;
+  padding-bottom:7px;
+  margin-left:320px;
+}
+#op4{
+  margin-left:300px
+}
+.mav{
+  color:#fff;
+  padding-left:10px;
+  
+}
+.navOpt{
+  display:flex;
+  flex-direction: column;
+}
+
+.pain{
+ background-color:midnightblue;
+ display:flex;
+  align-items:center;
+  align-content:center
+}
+.mv{
+  display: flex;
+  align-items:center;
+  
+  
+}
+
+.mu{
+  width:60px;
+  padding-top:10px
+}
+
+.mh{
+ color:#fff; 
+  
+}
+
+.mn{
+  color:#fff;
+  
+}
+
+.pnr{
+  flex-direction: column;
+}
+.pn{
+  padding-left:10px
+}
+
+.reedes{
+  display:flex;
+}
+.red1, .red2, .red3 {
+  width:25px;
+  padding:15px;
+}
+.red1{
+  margin-left:170px;
+}
+
+.ende{
+  color:#aaa;
+  margin-left:15px
+  
+}
+.dire{
+  display:flex;
+}
+.ibam{
+  margin-left:10px
+}
+
+.ulog{
+  width:170px;
+  margin-left:15px;
+}
+.navLi1 li, .navLi2 li, .navLi3 li, .navLi4 li{
+  list-style:none;
+  padding:15px 0px;
+  color:#aaa;
+  display:none
+}
+/* Quando a div da lista ganhar a classe .aberto */
+.navLi1.aberto, .navLi2.aberto, .navLi3.aberto, .navLi4.aberto {
+    display: block !important;
+}
+
+/* Força os itens de lista a aparecerem também */
+.aberto li {
+    display: block !important;
+}
