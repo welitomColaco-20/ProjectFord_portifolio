@@ -77,3 +77,12 @@ O design foi inspirado em sites do setor automotivo, sem fins comerciais ou inte
 
 Desenvolvido por **Welitom Baran Colaço**  
 Front-End Developer (HTML • CSS • JavaScript)
+
+
+## 📸 Screenshots
+
+![Home](./img/previw/prev1.png)
+![Models Section – Overview](./img/previw/prev5.png)
+![Models Section – Details](./img/previw/prev7.png)
+![Footer](./img/previw/prev4.png)
+
