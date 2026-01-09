@@ -82,7 +82,16 @@ Front-End Developer (HTML • CSS • JavaScript)
 ## 📸 Screenshots
 
 ![Home](./img/previw/prev1.png)
+
+---
+
 ![Models Section – Overview](./img/previw/prev5.png)
+
+---
+
 ![Models Section – Details](./img/previw/prev7.png)
+
+---
+
 ![Footer](./img/previw/prev4.png)
 
