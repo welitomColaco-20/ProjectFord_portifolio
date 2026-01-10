@@ -173,13 +173,13 @@ color: midnightblue;
 }
 
 .lay{
-  width:483px;
+  width:100vw;
   align-items:center;
 }
 
 .caracteristica{
   background-color:#eaecf1;
-  width:400px;
+  width:550px;
   height:800px;
   margin-top:35px;
   margin-left:200px;
