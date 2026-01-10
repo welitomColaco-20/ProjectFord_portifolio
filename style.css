@@ -193,6 +193,7 @@ color: midnightblue;
 .carinf{
   width:100%;
   padding:3px;
+  padding-bottom:30px;
    line-height:25px
 }
 p{
@@ -209,7 +210,7 @@ p{
   align-content:center;
   align-items: center;
   padding-left:100px;
-  
+  padding-bottom:20px;;
   
 }
 
