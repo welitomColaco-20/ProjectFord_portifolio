@@ -107,7 +107,7 @@ padding-bottom:20px;
 }
 .t{
  margin-bottom:5px;
-  font-size:35px
+  font-size:55px
 }
 .ds{
   margin-top:0px;
@@ -132,7 +132,7 @@ width:100%;
 }
 
 .preço{
-  font-size:25px;
+  font-size:45px;
   color: midnightblue;
    background-color:#eaecf1
 }
@@ -148,25 +148,25 @@ width:100%;
 }
 
 .box1{
- width:130px;
+ width:180px;
   padding:10px;
   
   
 }
 .box2{
- width:150px; 
+ width:200px; 
   padding:10px;
   
 }
 
 .box3{
-  width:160px;
+  width:220px;
   padding:10px
   
 }
 
 .fotos{
-font-size:35px;
+font-size:45px;
 color: midnightblue;
   text-align:center;
   
@@ -184,6 +184,7 @@ color: midnightblue;
   margin-top:35px;
   margin-left:200px;
   margin-bottom:75px;
+  align-content:center;
 }
 
 .caract{
@@ -193,7 +194,7 @@ color: midnightblue;
 .carinf{
   width:100%;
   padding:3px;
-  padding-bottom:30px;
+  padding-bottom:50px;
    line-height:25px
 }
 p{
@@ -210,7 +211,7 @@ p{
   align-content:center;
   align-items: center;
   padding-left:100px;
-  padding-bottom:20px;;
+  
   
 }
 
