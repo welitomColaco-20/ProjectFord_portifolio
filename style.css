@@ -359,8 +359,7 @@ display: flex;
 }
 
 .reedes div{
-  display:flex;
-  aling-itens:center;
+  display:flex;  
   flex-direction:row;
   justify-content: center;
 }
