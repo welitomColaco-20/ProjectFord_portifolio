@@ -360,6 +360,8 @@ display: flex;
 
 .reedes{
   display:flex;
+  aling-itens:center;
+  justify-content: center;
 }
 .red1, .red2, .red3 {
   width:25px;
