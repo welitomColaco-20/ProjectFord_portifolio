@@ -360,7 +360,7 @@ display: flex;
 
 .reedes div{
   display:flex;  
-  flex-direction:row;
+   flex-direction: row;
   justify-content: center;
 }
 .red1, .red2, .red3 {
