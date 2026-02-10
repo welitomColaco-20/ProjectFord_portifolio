@@ -51,6 +51,7 @@ a{
 }
 .cabeçalho{
  display:flex;
+  justify-content: space-between;
 }
 
 .menu1, .menu2, .menu3{
@@ -58,7 +59,6 @@ a{
 }
 
 .options{
-  margin-left:310px;
   margin-top:15px;
 }
 
