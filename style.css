@@ -361,6 +361,7 @@ display: flex;
 .reedes div{
   display:flex;
   aling-itens:center;
+  flex-direction:row;
   justify-content: center;
 }
 .red1, .red2, .red3 {
