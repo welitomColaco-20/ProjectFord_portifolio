@@ -358,7 +358,7 @@ display: flex;
   padding-left:10px
 }
 
-.reedes{
+.reedes div{
   display:flex;
   aling-itens:center;
   justify-content: center;
@@ -366,9 +366,6 @@ display: flex;
 .red1, .red2, .red3 {
   width:25px;
   padding:15px;
-}
-.red1{
-  margin-left:170px;
 }
 
 .ende{
