@@ -186,7 +186,7 @@ color: midnightblue;
   margin-top:35px;
   margin-left:200px;
   margin-bottom:-75px;
-  align-content:center;
+  
 }
 .sesaocaractere{
 margin-top:300px;
@@ -199,9 +199,10 @@ margin-top:300px;
 }
 .carinf{
   width:100%;
-  padding:3px;
+  padding:6px;
   padding-bottom:45px;
-   line-height:25px
+   line-height:35px;
+  font-size:32px;
 }
 p{
   padding:10px;
