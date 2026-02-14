@@ -8,10 +8,10 @@ body{
 }
 
 .menu1, .menu2, .menu3{
-  width:33px;
+  width:40px;
   height:2px;
   background-color:#05163d;
-  margin:7px;
+  margin:10px;
 }
 .optionmn{
   position: absolute;
@@ -217,7 +217,7 @@ p{
   font-size:30px;
   align-content:center;
   text-aling:center;
-  padding:auto;
+  padding-left:100px;
 }
 
 .barral ,.barralu{
