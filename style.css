@@ -3,12 +3,12 @@ body{
 }
 
 .logo{
-  width:70px;
+  width:90px;
   margin:10px
 }
 
 .menu1, .menu2, .menu3{
-  width:25px;
+  width:30px;
   height:2px;
   background-color:#05163d;
   margin:5px;
