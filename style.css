@@ -8,10 +8,10 @@ body{
 }
 
 .menu1, .menu2, .menu3{
-  width:30px;
+  width:33px;
   height:2px;
   background-color:#05163d;
-  margin:5px;
+  margin:7px;
 }
 .optionmn{
   position: absolute;
