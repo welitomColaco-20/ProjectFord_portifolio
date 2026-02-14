@@ -210,15 +210,11 @@ p{
 .viw{
   background-color: blue;
   color:#fff;
-  width:230px;
-  height:40px;
-  border-radius:15px;
+  width:350px;
+  height:50px;
+  border-radius:25px;
   font-size:30px;
-  align-content:center;
-  align-items: center;
-  padding-left:100px;
-  margin-bottom:400px
-  
+
 }
 
 .barral ,.barralu{
