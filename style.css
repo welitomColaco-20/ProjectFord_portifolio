@@ -242,37 +242,15 @@ background-color:#aaa;
 }
 .st1 ,.st2 ,.st3 ,.st4 ,.st5 ,.st6{
   width:30px;
-  padding-top:24px;
+  padding:24px 15px;
   flex-direction: row-reverse;
   
 }
 .bx{
 display: flex;
-}
-.st1{
-  margin-left:230px;
-  
+ justify-content: space-between; 
 }
 
-.st2{
-  margin-left:234px;
-}
-
-.st3{
-  margin-left:207px;
-}
-
-.st4{
-  margin-left:200px;
-}
-
-.st5{
-  margin-left:193px;
-}
-
-.st6{
-  margin-left:209px;
-}
 
 .textTm{
   color:#666;
