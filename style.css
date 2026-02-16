@@ -200,9 +200,9 @@ margin-top:100px;
 .carinf{
   width:100%;
   padding:6px;
-  padding-bottom:-60px;
+  padding-bottom:-180px;
    line-height:35px;
-  font-size:27px;
+  font-size:24px;
 }
 p{
   padding:10px;
@@ -213,8 +213,8 @@ p{
   color:#fff;
   width:350px;
   height:50px;
-  margin-top:100px;
-  margin-left:70px;
+  margin-top:50px;
+  margin-left:35px;
   border-radius:25px;
   font-size:30px;
   align-content:center;
@@ -242,7 +242,7 @@ background-color:#aaa;
 }
 .st1 ,.st2 ,.st3 ,.st4 ,.st5 ,.st6{
   width:30px;
-  padding:24px 15px;
+  padding:24px 22px;
   flex-direction: row-reverse;
   
 }
