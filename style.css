@@ -219,7 +219,7 @@ p{
   font-size:30px;
   align-content:center;
   text-aling:center;
-  padding-left:100px;
+  padding-left:150px;
 }
 
 .barral ,.barralu{
@@ -283,19 +283,8 @@ display: flex;
   display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
 .sugest{
-  background-color:midnightblue;
-  
+  background-color:midnightblue;  
   color:#fff;
   font-size:30px;
   padding:15px;
@@ -338,8 +327,7 @@ display: flex;
 .mv{
   display: flex;
   align-items:center;
-  
-  
+    
 }
 
 .mu{
@@ -368,7 +356,7 @@ display: flex;
   display:flex;  
    flex-direction: row;
   justify-content: center;
-  margin:auto;
+  margin:0px 170px;
 }
 .red1, .red2, .red3 {
   width:25px;
