@@ -8,21 +8,7 @@ closeBtn.addEventListener('click', () => {
     menuList.classList.remove('active');
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-    const setas = document.querySelectorAll('.mv img');
 
-    setas.forEach((seta) => {
-        seta.addEventListener('click', function() {
-             
-            const lista = this.parentElement.nextElementSibling;
-
-            if (lista) {
-                lista.classList.toggle('aberto');
-                this.style.transform = lista.classList.contains('aberto') ? 'rotate(180deg)' : 'rotate(0deg)';
-            }
-        });
-    });
-});
 const mentn = document.querySelector('.botopt');
 const menList = document.querySelector('.lihn');
 mentn.addEventListener('click', () => {
@@ -50,5 +36,32 @@ accordions.forEach((item) => {
     });
 });
 
+/*último menu*/
 
+const navOptions = document.querySelectorAll(".navOpt");
 
+navOptions.forEach((option) => {
+  const header = option.querySelector(".navMax");
+  const content = option.querySelector(".navLi");
+  const icon = option.querySelector("img");
+
+  header.addEventListener("click", () => {
+
+    // Fecha todos primeiro
+    document.querySelectorAll(".navLi").forEach(item => {
+      if (item !== content) {
+        item.classList.remove("active");
+      }
+    });
+
+    document.querySelectorAll(".navMax img").forEach(img => {
+      if (img !== icon) {
+        img.classList.remove("rotate");
+      }
+    });
+
+    // Alterna o clicado
+    content.classList.toggle("active");
+    icon.classList.toggle("rotate");
+  });
+});
