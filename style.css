@@ -357,18 +357,28 @@ display: flex;
   width:170px;
   margin-left:15px;
 }
-.navLi1 li, .navLi2 li, .navLi3 li, .navLi4 li{
-  list-style:none;
-  padding:15px 0px;
-  color:#aaa;
-  display:none
-}
-/* Quando a div da lista ganhar a classe .aberto */
-.navLi1.aberto, .navLi2.aberto, .navLi3.aberto, .navLi4.aberto {
-    display: block !important;
+/*último menu*/
+.navLi {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
 }
 
-/* Força os itens de lista a aparecerem também */
-.aberto li {
-    display: block !important;
+.navLi.active {
+  max-height: 300px;
+}
+
+.navMax {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navMax img {
+  transition: transform 0.3s ease;
+}
+
+.navMax img.rotate {
+  transform: rotate(180deg);
 }
