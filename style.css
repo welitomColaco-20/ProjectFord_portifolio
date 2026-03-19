@@ -330,11 +330,10 @@ display: flex;
   padding-left:10px
 }
 
-.reedes div{
-  display:flex;  
-   flex-direction: row;
-  justify-content: center;
-  margin:0px 170px;
+.reedes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 .red1, .red2, .red3 {
   width:25px;
