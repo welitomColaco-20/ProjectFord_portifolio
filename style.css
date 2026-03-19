@@ -343,10 +343,11 @@ display: flex;
 
 .reedes img {
     width: 25px;
+   margin:12px 0px;
 }
 
 .reedes {
-    gap: 15px;
+    gap: 20px;
 }
 
 .ende{
